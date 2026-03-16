@@ -6,6 +6,10 @@ Advanced pronunciation training tool using PyTorch and librosa to visually match
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Support me on Patreon](https://img.shields.io/endpoint.svg?url=https%3A%2F%2Fshieldsio-patreon.vercel.app%2Fapi%3Fusername%3DBonBonTV%26type%3Dpledges&style=for-the-badge)](https://patreon.com/BonBonTV)
 
+[![Stars](https://img.shields.io/github/stars/merry1025/EchoStream-Ultra?style=social)](https://github.com/merry1025/EchoStream-Ultra/stargazers)
+[![Forks](https://img.shields.io/github/forks/merry1025/EchoStream-Ultra?style=social)](https://github.com/merry1025/EchoStream-Ultra/network/members)
+[![Pull Requests](https://img.shields.io/github/issues-pr/merry1025/EchoStream-Ultra?style=flat)](https://github.com/merry1025/EchoStream-Ultra/pulls)
+
 中文介绍请看这里 https://github.com/merry1025/EchoStream-Ultra/blob/main/README-CN.md
 
 **EchoStream Ultra** is an advanced, open-source pronunciation training and language learning tool. It uses GPU-accelerated acoustic math to compare your voice against native speakers in movies, TV shows, and YouTube videos. 
