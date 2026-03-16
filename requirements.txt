@@ -1,0 +1,11 @@
+python-vlc
+pysrt
+sounddevice
+numpy
+librosa
+torch
+torchaudio
+scipy
+matplotlib
+moviepy
+yt-dlp
