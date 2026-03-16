@@ -110,6 +110,52 @@ EchoStream Ultra is designed to be used completely hands-free once your video is
 | **Mode Toggle** | `M` | Switches between **Normal Mode** (going through the whole video) and **Review Mode** (only looping through your saved favorites). |
 | **Delete Favorite**| `Delete` | Removes the current sentence from your favorites list (only works while in Review Mode). |
 
+## ️ 安装说明
+
+### 前置要求
+1. **Python 3.8+**
+2. **VLC Media Player** (您的电脑上必须安装 VLC 播放器，以便 Python-VLC 组件能够渲染视频界面)。
+3. *(可选但强烈推荐)* 配备 NVIDIA 显卡以获得 PyTorch 硬件加速。
+
+### 部署步骤
+1. 克隆代码仓库：
+
+   git clone [https://github.com/merry1025/EchoStream-Ultra.git](https://github.com/merry1025/EchoStream-Ultra.git)
+   
+   cd EchoStream-Ultra
+   
+3. 创建并激活虚拟环境：
+
+   python -m venv venv
+   
+   venv\Scripts\activate  # Windows 用户使用此命令
+   
+5. 安装所需依赖包：
+
+   pip install -r requirements.txt
+
+6. 运行程序：
+   python EchoStream_Ultra_v26.py
+   
+## 使用指南与快捷键
+
+视频加载完成后，EchoStream Ultra 完全支持“免提”操作，让您能全神贯注于发音练习。
+
+| 操作 | 快捷键 / 鼠标 | 功能说明 |
+| :--- | :--- | :--- |
+| **加载本地媒体** | `Ctrl + O` | 手动选择本地视频文件 (MP4/MKV) 及其对应的 SRT 字幕文件。 |
+| **播放当前片段** | `空格 (Space)` 或 `P` | 播放当前字幕对应的一段视频。 |
+| **下一句字幕** | `右方向键` | 跳到下一句字幕。您也可以在程序界面任意位置 **右键单击** 快速跳到下一句。 |
+| **上一句字幕** | `左方向键` | 退回到上一句字幕。 |
+| **开始录音** | `R` | 开启麦克风录音。自然地朗读出句子即可。录音会根据原句子的长度自动停止。 |
+| **提前停止录音** | `S` | 如果您在自动停止前就读完了，可以手动提前结束麦克风录音。 |
+| **回放我的录音** | `H` | 播放您刚刚录制的声音，听听自己的表现。 |
+| **同步对比播放** | `B` | 同时播放演员的原声和您的录音（系统会自动同步音频延迟），让您听出精确的口音重合度。 |
+| **收藏当前句子** | `F` | 将当前句子保存到当前视频专属的“收藏夹”列表中。 |
+| **切换复习模式** | `M` | 在 **普通模式**（按顺序播放整个视频）和 **复习模式**（仅循环播放您收藏的难点句子）之间切换。 |
+| **删除当前收藏** | `Delete` | 从收藏夹列表中移除当前句子（仅在“复习模式”下有效）。 |
+
+
 
 # Buy me a coffee on Patreon
 [![Support me on Patreon](https://img.shields.io/endpoint.svg?url=https%3A%2F%2Fshieldsio-patreon.vercel.app%2Fapi%3Fusername%3DBonBonTV%26type%3Dpledges&style=for-the-badge)](https://patreon.com/BonBonTV)
