@@ -87,5 +87,8 @@ EchoStream Ultra is designed to be used completely hands-free once your video is
 | **Mode Toggle** | `M` | Switches between **Normal Mode** (going through the whole video) and **Review Mode** (only looping through your saved favorites). |
 | **Delete Favorite**| `Delete` | Removes the current sentence from your favorites list (only works while in Review Mode). |
 
+## 📊 (Repository Stats)
+![GitHub Stats](https://github-readme-stats.vercel.app/api/pin/?username=merry1025&repo=EchoStream-Ultra&theme=radical)
+
 # Buy me a coffee on Patreon
 [![Support me on Patreon](https://img.shields.io/endpoint.svg?url=https%3A%2F%2Fshieldsio-patreon.vercel.app%2Fapi%3Fusername%3DBonBonTV%26type%3Dpledges&style=for-the-badge)](https://patreon.com/BonBonTV)
