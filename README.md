@@ -69,14 +69,14 @@ EchoStream Ultra acts as a strict vocal coach using a 4-step pipeline:
 ## Installation
 
 ### 推荐使用一键安装法:
-1.下载 https://github.com/merry1025/EchoStream-Ultra/releases/download/v2.0/EchoStream_Ultra_Release.zip
-2.解压缩
-3.运行Start_EchoStream.bat
+* **下载 https://github.com/merry1025/EchoStream-Ultra/releases/download/v2.0/EchoStream_Ultra_Release.zip
+* **解压缩
+* **运行Start_EchoStream.bat
 
 ### Suggested one-click installation:
-1.Download https://github.com/merry1025/EchoStream-Ultra/releases/download/v2.0/EchoStream_Ultra_Release.zip
-2.Unzip
-3.Run: Start_EchoStream.bat
+* **Download https://github.com/merry1025/EchoStream-Ultra/releases/download/v2.0/EchoStream_Ultra_Release.zip
+* **Unzip
+* **Run: Start_EchoStream.bat
 
 OR / 或者：
 
