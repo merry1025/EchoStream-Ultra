@@ -1,7 +1,6 @@
 # EchoStream-Ultra
 Advanced pronunciation training tool using PyTorch and librosa to visually match your speech intonation with YouTube videos and local media.
 
-# EchoStream Ultra
 
 [![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
