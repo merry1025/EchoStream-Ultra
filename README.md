@@ -61,7 +61,7 @@ pip install -r requirements.txt
 
 ### Run the application
 
-python "EchoStream Ultra.py"
+python EchoStream_Ultra_v26.py
 
 ## Usage Guide & Hotkeys
 
