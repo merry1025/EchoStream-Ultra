@@ -22,6 +22,19 @@ Instead of just checking if you said the right words, EchoStream evaluates your 
 
 ---
 
+## ✨ What's New in V2.0 (The AI Upgrade)
+
+EchoStream Ultra has been completely rebuilt from the ground up with a state-of-the-art Deep Learning pipeline.
+
+* ** Deep Learning Audio Isolation:** Powered by Facebook's **Demucs** neural network. It no longer just filters frequencies; it structurally rips the actor's pure vocals out of the movie, completely ignoring explosions, wind, and background music.
+* ** AI Silence Trimming:** Integrates **Silero VAD** (Voice Activity Detection) to surgically trim dead air and hesitation from your microphone recordings before scoring, ensuring perfect alignment.
+* ** Smart Tutor "Shadow Mode":** An automated, hands-free practice loop. The app plays a sentence, opens your mic, and scores you. If your Pitch/Pronunciation > 60% and Rhythm/Stress > 80%, it praises you and moves to the next sentence. If you fail, it loops the sentence until you get it right!
+* ** Triple-Metric Scoring:** The old unified score is gone. You now receive precise, independent grades for **Pitch & Pronunciation** (MFCC + DTW Melody), **Rhythm** (Pacing penalties), and **Stress** (Logarithmic RMS envelope).
+* ** Global YouTube Support:** A new dropdown menu allows you to easily select your target language (English, French, Spanish, Italian, Japanese, etc.). Just paste a YouTube link, and the app fetches the right video and subtitles automatically.
+* ** True Pitch Tracking:** Using `librosa.pyin`, the app now tracks and draws the actual Fundamental Frequency (F0) melody of the actor's voice (Gold Line) and your voice (Magenta Line) so you can visually match their intonation.
+
+---
+
 ## Key Features
 
 * **Harmonic Source Separation:** Automatically filters out background music, wind, and explosions from movie audio, isolating just the actor's voice for accurate comparison.
