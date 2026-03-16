@@ -58,3 +58,21 @@ pip install -r requirements.txt
 ### Run the application
 
 python "EchoStream Ultra.py"
+
+## Usage Guide & Hotkeys
+
+EchoStream Ultra is designed to be used completely hands-free once your video is loaded, allowing you to focus entirely on your pronunciation. 
+
+| Action | Hotkey / Control | Description |
+| :--- | :--- | :--- |
+| **Load Media** | `Ctrl + O` | Manually select a local video file (MP4/MKV) and its matching SRT subtitle file. |
+| **Play Segment** | `Space` or `P` | Plays the video for the current subtitle sentence. |
+| **Next Subtitle** | `Right Arrow` | Skips to the next subtitle sentence. You can also **Right-Click** anywhere on the app to quickly skip forward. |
+| **Previous Subtitle** | `Left Arrow` | Goes back to the previous subtitle sentence. |
+| **Record** | `R` | Starts your microphone. Speak the sentence naturally. The recording stops automatically based on the sentence length. |
+| **Stop Recording**| `S` | Manually stops the microphone recording early if you finish speaking before the auto-cutoff. |
+| **Replay Me** | `H` | Plays back your last recorded microphone attempt so you can hear yourself. |
+| **Play Both** | `B` | Plays the actor's voice and your recorded voice simultaneously (with an auto-synced delay) to hear the exact overlap. |
+| **Save Favorite** | `F` | Saves the current sentence to a dedicated "Favorites" list for this specific video. |
+| **Mode Toggle** | `M` | Switches between **Normal Mode** (going through the whole video) and **Review Mode** (only looping through your saved favorites). |
+| **Delete Favorite**| `Delete` | Removes the current sentence from your favorites list (only works while in Review Mode). |
