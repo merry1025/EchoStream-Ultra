@@ -43,7 +43,7 @@ EchoStream Ultra acts as a strict vocal coach using a 4-step pipeline:
 ### Setup
 1. Clone the repository:
    ```bash
-   git clone [https://github.com/merry1025/EchoStream-Ultra.git](https://github.com/merry1025/EchoStream-Ultra.git)
+   git clone [https://github.com/merry1025/EchoStream-Ultra.git]
    cd EchoStream-Ultra
 
 ### Create a virtual environment
