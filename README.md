@@ -10,6 +10,10 @@ Advanced pronunciation training tool using PyTorch and librosa to visually match
 
 Instead of just checking if you said the right words, EchoStream evaluates your **rhythm, pacing, and stress (intonation)**, visually overlaying your voice onto the actor's voice so you can perfectly mimic native speech patterns.
 
+## Screenshot
+
+<img width="1195" height="1000" alt="Screenshot01" src="https://github.com/user-attachments/assets/1457d077-8376-494b-9167-b22a24b9665f" />
+
 ---
 
 ## Key Features
