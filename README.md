@@ -18,7 +18,8 @@ Instead of just checking if you said the right words, EchoStream evaluates your 
 
 ## Screenshot
 
-<img width="1195" height="1000" alt="Screenshot01" src="https://github.com/user-attachments/assets/1457d077-8376-494b-9167-b22a24b9665f" />
+<img width="1192" height="1002" alt="Screenshot02" src="https://github.com/user-attachments/assets/8f2dba19-a250-4d78-b5fa-49eb74387f9e" />
+
 
 ---
 
@@ -32,6 +33,15 @@ EchoStream Ultra has been completely rebuilt from the ground up with a state-of-
 * ** Triple-Metric Scoring:** The old unified score is gone. You now receive precise, independent grades for **Pitch & Pronunciation** (MFCC + DTW Melody), **Rhythm** (Pacing penalties), and **Stress** (Logarithmic RMS envelope).
 * ** Global YouTube Support:** A new dropdown menu allows you to easily select your target language (English, French, Spanish, Italian, Japanese, etc.). Just paste a YouTube link, and the app fetches the right video and subtitles automatically.
 * ** True Pitch Tracking:** Using `librosa.pyin`, the app now tracks and draws the actual Fundamental Frequency (F0) melody of the actor's voice (Gold Line) and your voice (Magenta Line) so you can visually match their intonation.
+
+EchoStream Ultra 经过了从头到尾的彻底重构，采用了最先进的深度学习 (Deep Learning) 引擎管线。
+
+* **深度学习音频分离：** 由 Facebook 的 **Demucs** 神经网络提供支持。它不再仅仅是过滤频率；它能从电影中结构性地精准剥离出演员的纯净人声，完全无视爆炸声、风声和背景音乐。
+* **AI 静音裁剪：** 集成了 **Silero VAD**（语音活动检测），在打分前如同外科手术般精准裁剪掉你麦克风录音中的空白死角和犹豫停顿，确保波形的完美对齐。
+* **智能导师“影子模式 (Shadow Mode)”：** 一个自动化的免提跟读循环。软件会播放一个句子，自动打开麦克风，并为你打分。如果你的音高/发音 (Pitch/Pronunciation) > 60% 且 节奏/重音 (Rhythm/Stress) > 80%，它会给出表扬并自动进入下一句。如果没有达标，它会循环播放该句子，直到你读对为止！
+* **三重指标打分：** 旧的单一综合评分已成为历史。你现在会获得精确、独立的单项评分，包括：**音高与发音 (Pitch & Pronunciation)**（MFCC + DTW 旋律算法）、**节奏 (Rhythm)**（语速惩罚机制）以及 **重音 (Stress)**（对数 RMS 包络）。
+* **全球 YouTube 支持：** 全新的下拉菜单让你能够轻松选择目标语言（英语、法语、西班牙语、意大利语、日语等）。只需粘贴 YouTube 链接，软件便会自动抓取对应的视频和字幕。
+* **真实音高追踪：** 借助 `librosa.pyin`，软件现在可以追踪并绘制出演员原声（金线）和你自己声音（品红线）的真实基频 (F0) 旋律，让你可以直观地在视觉上比对和纠正语调。
 
 ---
 
