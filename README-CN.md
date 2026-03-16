@@ -47,18 +47,20 @@ EchoStream Ultra 就像一位严格的声乐导师，采用 4 步处理流程：
 1. 克隆代码仓库：
 
    git clone [https://github.com/merry1025/EchoStream-Ultra.git](https://github.com/merry1025/EchoStream-Ultra.git)
+   
    cd EchoStream-Ultra
    
-2. 创建并激活虚拟环境：
+3. 创建并激活虚拟环境：
 
    python -m venv venv
+   
    venv\Scripts\activate  # Windows 用户使用此命令
    
-3. 安装所需依赖包：
+5. 安装所需依赖包：
 
    pip install -r requirements.txt
 
-4. 运行程序：
+6. 运行程序：
    python EchoStream_Ultra_v26.py
    
 ## 使用指南与快捷键
